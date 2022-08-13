@@ -54,8 +54,8 @@ ul {
 }
 
 #homeHeader {
-  height: 50%;
-  width: auto; 
+  height: auto;
+  width: 75%; 
   background-image: url(https://c.wallhere.com/photos/c1/67/Fantasy_Architecture_fantasy_art_digital_landscape_futuristic_digital_art_sky-1841979.jpg!d);
   background-size: cover;
   background-repeat: no-repeat;

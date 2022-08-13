@@ -4,11 +4,12 @@
 
 @model Factory.Models.Machine
 
-<h2>Are you sure you want to take this machine out of commission?</h2>
+<div class="viewContainer">
+  <h2>Are you sure you want to take this machine out of commission?</h2>
 
-@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-@using (Html.BeginForm())
-{
-  <input type="submit" value="Delete" />
-}
-@Html.ActionLink("Machine List", "Index")
+  <h4>@Html.DisplayFor(model => model.Name)</h4>
+  @using (Html.BeginForm())
+  {
+    <input type="submit" value="Delete" />
+  }
+</div>
