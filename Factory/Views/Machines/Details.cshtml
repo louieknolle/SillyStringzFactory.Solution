@@ -28,9 +28,15 @@
     }
     </ul>
   }
-  <div class="row">
-    <button  class="col-sm-4 detailButton">@Html.ActionLink("Add Engineer", "AddEngineer", new { id = Model.MachineId })</button>
-    <button class="col-sm-4 detailButton">@Html.ActionLink("Edit Machine", "Edit", new { id = Model.MachineId })</button>
-    <button class="col-sm-4 detailButton">@Html.ActionLink("Delete Machine", "Delete", new { id = Model.MachineId })</button>
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+      <button  class="detailButton">@Html.ActionLink("Add Engineer", "AddEngineer", new { id = Model.MachineId })</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="detailButton">@Html.ActionLink("Edit Machine", "Edit", new { id = Model.MachineId })</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="detailButton">@Html.ActionLink("Delete Machine", "Delete", new { id = Model.MachineId })</button>
+    </div>
   </div>
 <div class="viewContainer">
