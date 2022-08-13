@@ -18,9 +18,10 @@ body {
   background-image: url(https://c.wallhere.com/photos/c1/67/Fantasy_Architecture_fantasy_art_digital_landscape_futuristic_digital_art_sky-1841979.jpg!d);
 }
 
-button, input, label {
+button, input, label, select {
   display: inline-block;
   margin-bottom: .5rem;
+  padding-right: .3rem;
 }
 
 form {
@@ -33,7 +34,11 @@ button a {
   color: black;
 }
 
-li a {
+button a:hover {
+  color: black;
+}
+
+li, li a {
   text-decoration: none;
   color:#E1341E;
 }
@@ -43,11 +48,15 @@ li a:hover {
   text-decoration: underline;
 }
 
-ul {
+ul, li {
   list-style: decimal;
+  margin-bottom: 3%;
 }
 
-
+.nav-item {
+  list-style: none;
+  margin-bottom: auto;
+}
 
 #homeHTML, body#homeBody, #homeContainer {
   background: #dbbde2;
@@ -91,4 +100,26 @@ ul {
   margin: auto;
   margin-top: 5%;
   border-radius: .5rem;
+}
+
+.detailUL {
+  padding-left: 0;
+}
+
+#photosPage {
+  width: 80%;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+img {
+  max-height:100%; 
+  max-width:100%;
+  margin: auto;
+  margin-bottom: .5rem;
+  display: inline-block;
 }

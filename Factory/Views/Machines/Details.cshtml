@@ -16,7 +16,7 @@
   else
   {
     <h4>Engineers licensed to service this machine:</h4>
-    <ul>
+    <ul class="detailUL">
     @foreach(var join in Model.JoinEntities)
     {
       <li>@join.Engineer.Name</li>
@@ -28,8 +28,9 @@
     }
     </ul>
   }
-
-  <button>@Html.ActionLink("Add Engineer", "AddEngineer", new { id = Model.MachineId })</button>
-  <button>@Html.ActionLink("Edit Machine", "Edit", new { id = Model.MachineId })</button>
-  <button>@Html.ActionLink("Delete Machine", "Delete", new { id = Model.MachineId })</button>
+  <div class="row">
+    <button  class="col-sm-4 detailButton">@Html.ActionLink("Add Engineer", "AddEngineer", new { id = Model.MachineId })</button>
+    <button class="col-sm-4 detailButton">@Html.ActionLink("Edit Machine", "Edit", new { id = Model.MachineId })</button>
+    <button class="col-sm-4 detailButton">@Html.ActionLink("Delete Machine", "Delete", new { id = Model.MachineId })</button>
+  </div>
 <div class="viewContainer">
