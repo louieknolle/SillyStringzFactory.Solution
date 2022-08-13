@@ -11,5 +11,10 @@ namespace Factory.Controllers
         return View();
       }
 
+      [HttpGet("/Picnic")]
+      public ActionResult Picnic()
+      {
+        return View();
+      }
     }
 }
