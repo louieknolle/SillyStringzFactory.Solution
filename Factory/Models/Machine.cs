@@ -13,6 +13,7 @@ namespace Factory.Models
     public string Name { get; set; }
     public int YearLastServiced { get; set; }
     public string Description { get; set; }
+    public bool Operational { get; set; }
 
     public virtual ICollection<EngineerMachine> JoinEntities { get;}
   }

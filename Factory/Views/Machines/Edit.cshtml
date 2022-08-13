@@ -16,6 +16,12 @@
     @Html.LabelFor(model => model.Name)
     @Html.EditorFor(model => model.Name)
 
+    @Html.LabelFor(model => model.YearLastServiced)
+    @Html.EditorFor(model => model.YearLastServiced)
+
+    @Html.LabelFor(model => model.Operational)
+    @Html.EditorFor(model => model.Operational)
+
     @Html.Label("Select Engineer")
     @Html.DropDownList("EngineerId")
 
