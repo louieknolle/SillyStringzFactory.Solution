@@ -18,7 +18,8 @@ namespace Factory.Controllers
 
     public ActionResult Index()
     {
-      return View(_db.Machines.ToList());
+      List<Machine> model = _db.Machines.ToList();
+      return View(model);
     }
 
     public ActionResult Create()
@@ -38,7 +39,6 @@ namespace Factory.Controllers
         _db.SaveChanges();
       }
       return RedirectToAction("Index");
-      
     }
 
     public ActionResult Details(int id)
