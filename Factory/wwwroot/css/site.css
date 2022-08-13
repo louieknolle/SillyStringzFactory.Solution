@@ -17,15 +17,34 @@ body {
   margin-bottom: 60px;
 }
 
+#homeHTML, body#homeBody, #homeContainer {
+  background: #dbbde2;
+}
+
 #homeHeader {
   height: 50%;
   width: auto; 
-  /* background-size: cover;
-  background-repeat: no-repeat; */
+  background-image: url(https://c.wallhere.com/photos/c1/67/Fantasy_Architecture_fantasy_art_digital_landscape_futuristic_digital_art_sky-1841979.jpg!d);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
-  margin-top: 25%;
   margin-bottom: 15%;
   border-radius: 1rem;
   font-size: 1.2rem;
   text-align:left;
+}
+
+#homeContainer {
+  border-radius: 1rem;
+}
+
+#homeTitle {
+  color: #E1341E;
+  margin-top: 5%;
+  margin-bottom: 40%;
+  padding-top: 5%;
+  padding-left: 5%;
+  background-color: #fff;
+  opacity: .6;
+  border-radius: 1rem 1rem 0 0;
 }
