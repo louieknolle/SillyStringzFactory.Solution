@@ -2,7 +2,7 @@
 
 #### By _**Louie Knolle**_
 
-#### _This is a web-based application to allow the factory manager from Dr. Sillystrinz's factory to view engineers, machines, and what machines the engineers are licensed to work on._
+#### _This is a web-based application to allow the factory manager from Dr. Sillystringz's factory to view engineers, machines, and what machines the engineers are licensed to work on._
 
 ## Technologies Used
 
