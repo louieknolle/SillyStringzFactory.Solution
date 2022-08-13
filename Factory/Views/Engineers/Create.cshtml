@@ -10,6 +10,9 @@
   {
     @Html.LabelFor(model => model.Name)
     @Html.TextBoxFor(model => model.Name)
+
+    @Html.LabelFor(model => model.LicenseExpiration)
+    @Html.TextBoxFor(model => model.LicenseExpiration, "{0:d MMM yyyy}", new { @class="input-large", type = "datetime-local" })
     <input type="submit" value="Add engineer" />
   }
 
