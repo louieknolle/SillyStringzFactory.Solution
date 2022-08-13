@@ -10,10 +10,10 @@ namespace Factory.Models
     }
 
     public int MachineId { get; set; }
-    public string Brand { get; set; }
     public string Name { get; set; }
-    public int PurchaseYear { get; set; }
+    public int YearLastServiced { get; set; }
     public string Description { get; set; }
+    // public bool UpToService { get; set; }
 
     public virtual ICollection<EngineerMachine> JoinEntities { get;}
   }
