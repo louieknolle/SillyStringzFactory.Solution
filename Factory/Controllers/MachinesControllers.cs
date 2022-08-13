@@ -37,7 +37,7 @@ namespace Factory.Controllers
         _db.EngineerMachine.Add(new EngineerMachine() { EngineerId = EngineerId, MachineId = machine.MachineId });
         _db.SaveChanges();
       }
-      return RedirectToAction("Index", "Engineers", null);
+      return RedirectToAction("Index");
       
     }
 
