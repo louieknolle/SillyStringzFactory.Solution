@@ -15,7 +15,39 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: url(https://c.wallhere.com/photos/c1/67/Fantasy_Architecture_fantasy_art_digital_landscape_futuristic_digital_art_sky-1841979.jpg!d);
 }
+
+button, input, label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  text-decoration: none;
+  color:#E1341E;
+}
+
+li a:hover {
+  color: #902112;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: decimal;
+}
+
+
 
 #homeHTML, body#homeBody, #homeContainer {
   background: #dbbde2;
@@ -47,4 +79,16 @@ body {
   background-color: #ffffffa0;
   border-radius: 1rem 1rem 0 0;
   text-align: center;
+}
+
+.viewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffd0;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: .5rem;
 }
